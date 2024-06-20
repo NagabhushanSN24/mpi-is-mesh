@@ -49,7 +49,12 @@ You should then compile and install the ``psbody-mesh`` package easily
 using the Makefile:
 
 ```
-$ BOOST_INCLUDE_DIRS=/path/to/boost/include make all
+$ BOOST_INCLUDE_DIRS=/usr/include/boost make all
+```
+
+Set PyOpenGL to OSMesa before running anything further
+```shell
+export PYOPENGL_PLATFORM='osmesa'
 ```
 
 Testing
